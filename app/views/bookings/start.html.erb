@@ -1,0 +1,9 @@
+<div class="container">
+	<h4> Booking Start</h4>
+<%= form_for :booking, url: started_bookings_path do |f| %>
+  Booking ID <%= f.text_field :id, required: true %><br /><br />
+  <%= f.submit "Booking Start"%>
+<% end %>
+</div>
+
+<%= link_to "Booking Page", new_bookings_path%>

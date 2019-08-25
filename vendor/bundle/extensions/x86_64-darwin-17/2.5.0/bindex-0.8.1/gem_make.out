@@ -1,0 +1,15 @@
+current directory: /Users/ankur/Documents/Task/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+/Users/ankur/.rvm/rubies/ruby-2.5.3/bin/ruby -r ./siteconf20190825-79864-hwemtm.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ankur/Documents/Task/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/ankur/Documents/Task/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/ankur/Documents/Task/vendor/bundle/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20190825-79864-9g9jgj/skiptrace/internal

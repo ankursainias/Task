@@ -1,0 +1,16 @@
+<div class="container">
+	<%= link_to "Complete OnGoing Booking", mark_complete_bookings_path %><br/>
+	<%= link_to "Start Accepted Booking", start_bookings_path %>
+	<h4>Create Booking Request</h4>
+<%= form_for @booking do |f| %>
+<div class="form-group">
+  pickup address: <%= f.text_field :start_address, required: true %>
+</div>
+<div class="form-group">
+  drop address : <%= f.text_field :end_address, required: true %>
+</div>
+  Seat : <%= f.select :no_of_passenger, [1,2] %><br /><br />
+  <%= f.submit "Booking Request"%>
+<% end %>
+</div>
+

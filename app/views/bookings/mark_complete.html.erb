@@ -1,0 +1,7 @@
+<div class="container">
+	<h4> Booking Complete</h4>
+<%= form_for :booking, url: completed_bookings_path do |f| %>
+  Booking ID <%= f.text_field :id, required: true %><br /><br />
+  <%= f.submit "Booking Complete"%>
+<% end %>
+</div>
